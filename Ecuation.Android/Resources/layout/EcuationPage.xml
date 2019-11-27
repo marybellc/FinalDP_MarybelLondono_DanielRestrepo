@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:local="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:padding="20dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	    <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="Ingrese A" />
+	    <EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="12dp"
+    	android:gravity="right"
+    	local:MvxBind="Text A" />
+        <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="Ingrese B" />
+        <EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="12dp"
+    	android:gravity="right"
+    	local:MvxBind="Text B" />
+       <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="Ingrese C" />
+        <EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="12dp"
+    	android:gravity="right"
+    	local:MvxBind="Text C" />
+    <Button
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click CalculateCommand" />
+    
+
+   <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dp"
+    	android:textSize="24dp"
+    	android:text="Raiz + " />
+   <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="@android:color/holo_blue_dark"
+    	android:textSize="24dp"
+   	    android:gravity="center"
+    	local:MvxBind="Text Result" 
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="17dp"/>
+
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="Raiz -" />
+	<TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="@android:color/holo_blue_dark"
+    	android:textSize="24dp"
+   	    android:gravity="center"
+    	local:MvxBind="Text Result" 
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="17dp"/>
+</LinearLayout>
+

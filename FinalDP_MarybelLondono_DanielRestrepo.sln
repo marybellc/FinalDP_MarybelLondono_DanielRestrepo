@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecuation.Core", "Ecuation.Core\Ecuation.Core.csproj", "{627D4BB7-FE53-42C0-968E-2A76F2F9D37F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecuation.Android", "Ecuation.Android\Ecuation.Android.csproj", "{04BF99A4-CA94-4692-A063-FF81EA557457}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{627D4BB7-FE53-42C0-968E-2A76F2F9D37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{627D4BB7-FE53-42C0-968E-2A76F2F9D37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{627D4BB7-FE53-42C0-968E-2A76F2F9D37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BF99A4-CA94-4692-A063-FF81EA557457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BF99A4-CA94-4692-A063-FF81EA557457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BF99A4-CA94-4692-A063-FF81EA557457}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04BF99A4-CA94-4692-A063-FF81EA557457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BF99A4-CA94-4692-A063-FF81EA557457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BF99A4-CA94-4692-A063-FF81EA557457}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
