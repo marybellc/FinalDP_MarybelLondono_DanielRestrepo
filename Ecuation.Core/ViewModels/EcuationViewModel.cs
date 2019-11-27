@@ -16,6 +16,7 @@ namespace Ecuation.Core.ViewModels
         private double _c;
         private RaizType _raizType;
         private double _result;
+        private double _result2;
         private MvxCommand _calculateCommand;
 
         public EcuationViewModel(IEcuationService ecuationService)
@@ -64,6 +65,17 @@ namespace Ecuation.Core.ViewModels
             }
         }
 
+
+        public double Result2
+        {
+            get => _result2;
+            set
+            {
+                _result2 = value;
+                RaisePropertyChanged(() => Result2);
+            }
+        }
+
         public ICommand CalculateCommand
         {
             get
@@ -98,6 +110,7 @@ namespace Ecuation.Core.ViewModels
         private void Calculate()
         {
             Result = _ecuationService.GetEcuation(A, B, C, raizType);
+            Result2 = _ecuationService.GetEcuation2(A, B, C, raizType);
         }
     }
 }
